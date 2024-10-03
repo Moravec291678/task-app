@@ -1,0 +1,35 @@
+.one-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 25px;
+  background-color: #011526;
+  margin: 10px 0px;
+}
+
+.one-task-del {
+  height: 60.53px;
+  background-color: #011526;
+  color: #91bbf2;
+  border: none;
+  padding-right: 15px;
+  cursor: pointer;
+  transition: all .15s;
+}
+
+.main-button {
+  background-color: #91bbf2;
+  color: #011526;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto 0;
+  transition: all .15s;
+  border-radius: 15px;
+}
+
+.main-button:hover{ 
+  background-color: #011526;
+  color: #91bbf2;
+}
